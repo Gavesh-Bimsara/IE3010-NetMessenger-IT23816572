@@ -1,0 +1,5 @@
+*.out
+*.o
+received_6572/
+storage/
+netmsg_IT23816572.log
