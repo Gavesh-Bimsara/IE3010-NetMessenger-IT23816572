@@ -1,0 +1,13 @@
+CC = gcc
+CFLAGS = -Wall -g
+
+all: server_6572.out client_6572.out
+
+server_6572.out: server_6572.c
+	$(CC) $(CFLAGS) -o server_6572.out server_6572.c
+
+client_6572.out: client_6572.c
+	$(CC) $(CFLAGS) -o client_6572.out client_6572.c
+
+clean:
+	rm -f server_6572.out client_6572.out
